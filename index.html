@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriately as they are your "business card" -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dynamic Manipulation of Deformable Objects in 3D: Simulation, Benchmark and Learning Strategy</title>
+ <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <!-- MathJax CDN for rendering LaTeX formulas -->
+  <script type="text/javascript" async
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Dynamic Manipulation of Deformable Objects in 3D: Simulation, Benchmark and Learning Strategy</h1>
+            <div class="is-size-5 publication-authors">
+ <!-- Paper authors -->
+  <span class="author-block">
+    <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+  <span class="author-block">
+    <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+  <span class="author-block">
+    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Institution Name<br>NeurIPS 2025</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Single Image Section -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="content">
+        <!-- Your image here -->
+        <img src="static/images/nips_pipeline_00.png" alt="MY ALT TEXT" />
+      <p>Pipeline of the Proposed DIDP Framework.   \(D\) denotes the DoF of the entire system, and  \( N\) the length of the action sequence.
+      In the denoising network \( \epsilon_\eta\), the red blocks represent learnable parameters, 
+      while blue blocks indicate frozen modules. During the training phase, all parameters are optimized jointly. 
+      During the inference phase, we employ a test-time adaptation strategy by fine-tuning only the final projection layer.
+    </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Single Image Section -->
+
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+         <p>Goal-conditioned dynamic manipulation is inherently challenging due to complex system dynamics and stringent task constraints, particularly in deformable object scenarios characterized by high degrees of freedom and underactuation. Prior methods often simplify the problem to low-speed or 2D settings, limiting their applicability to real-world 3D tasks. In this work, we explore 3D goal-conditioned rope manipulation as a representative challenge. To mitigate data scarcity, we introduce a novel simulation framework and benchmark grounded in reduced-order dynamics, which enables compact state representation and facilitates efficient policy learning. Building on this, we propose <strong>D</strong>ynamics <strong>I</strong>nformed <strong>D</strong>iffusion  <strong>P</strong>olicy (<strong>DIDP</strong>), a framework that integrates imitation pretraining with physics-informed test-time adaptation. First, we design a diffusion policy that learns inverse dynamics within the reduced-order space, enabling imitation learning to move beyond naïve data fitting and capture the underlying physical structure. Second, we propose a physics-informed test-time adaptation scheme that imposes kinematic boundary conditions and structured dynamics priors on the diffusion process, ensuring consistency and reliability in manipulation execution. Extensive experiments validate the proposed approach, demonstrating strong performance in terms of accuracy and robustness in the learned policy.
+</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Single Image Section -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="content">
+        <!-- Your image here -->
+        <img src="static/images/top1_00.png" alt="MY ALT TEXT" />
+      <p>We introduce the 3D dynamic manipulation benchmark for deformable objects by leveraging GVS modeling. This framework enables a reduced-DoF representation and differentiable system modeling, facilitating efficient learning of inverse dynamics. Our approach ensures consistency between kinematics and dynamics throughout the policy learning process.
+    </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Single Image Section -->
+
+
+<!-- Video Grid Section -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Training Dataset</h2>
+      <div class="video-grid">
+        <!-- Video 1 -->
+        <div class="video-item">
+          <video poster="" id="video1" autoplay controls muted loop>
+            <source src="static/videos/predict_7.mp4" type="video/mp4">
+            <!-- Alternative MP4 format (for better browser compatibility) -->
+            <source src="static/videos/predict_7.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- Video 2 -->
+        <div class="video-item">
+          <video poster="" id="video2" autoplay controls muted loop>
+            <source src="static/videos/predict_500.mp4" type="video/mp4">
+            <source src="static/videos/predict_500.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- Video 3 -->
+        <div class="video-item">
+          <video poster="" id="video3" autoplay controls muted loop>
+            <source src="static/videos/predict_2500.mp4" type="video/mp4">
+            <source src="static/videos/predict_2500.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- Video 4 -->
+        <div class="video-item">
+          <video poster="" id="video4" autoplay controls muted loop>
+            <source src="static/videos/predict_5000.mp4" type="video/mp4">
+            <source src="static/videos/predict_5000.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- Video 5 -->
+        <div class="video-item">
+          <video poster="" id="video5" autoplay controls muted loop>
+            <source src="static/videos/predict_5500.mp4" type="video/mp4">
+            <source src="static/videos/predict_5500.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- Video 6 -->
+        <div class="video-item">
+          <video poster="" id="video6" autoplay controls muted loop>
+            <source src="static/videos/predict_7000.mp4" type="video/mp4">
+            <source src="static/videos/predict_7000.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- Video 7 -->
+        <div class="video-item">
+          <video poster="" id="video7" autoplay controls muted loop>
+            <source src="static/videos/predict_12500.mp4" type="video/mp4">
+            <source src="static/videos/predict_12500.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- Video 8 -->
+        <div class="video-item">
+          <video poster="" id="video8" autoplay controls muted loop>
+            <source src="static/videos/predict_29000.mp4" type="video/mp4">
+            <source src="static/videos/predict_29000.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End video grid -->
+
+<!-- Add some styling to create a 2x4 grid -->
+<style>
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px; /* space between videos */
+  }
+
+  .video-item video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: to make videos look nicer */
+  }
+
+  /* Make the video grid responsive */
+  @media (max-width: 1200px) {
+    .video-grid {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns on smaller screens */
+    }
+  }
+
+  @media (max-width: 900px) {
+    .video-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on even smaller screens */
+    }
+  }
+
+  @media (max-width: 600px) {
+    .video-grid {
+      grid-template-columns: 1fr; /* 1 column on very small screens */
+    }
+  }
+</style>
+
+<!-- Single Image Section -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="content">
+        <!-- Your image here -->
+        <img src="static/images/dataset_00.png" alt="MY ALT TEXT" />
+      <p>Dataset overview. (a) shows the distribution of goal conditions in 3D space for both training and testing cases, demonstrating comprehensive spatial coverage. (b) and (c) depict the distributions of kinematic and dynamic states, respectively. The curves indicate the mean and standard deviation across time steps, based on a reduced representation with 20 DoFs to describe the entire system. (d) provides a visualization of the complete system within the simulation environment.
+    </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Single Image Section -->
+
+
+
+<!-- Testing Results（DDP+KBC） -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Testing Results（DDP+KBC）</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <!-- Video 1 -->
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <source src="static/videos/test/predict_0.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- Video 2 -->
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <source src="static/videos/test/predict_473.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- Video 3 -->
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">
+            <source src="static/videos/test/predict_443.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- Video 4 -->
+        <div class="item item-video4">
+          <video poster="" id="video4" autoplay controls muted loop height="100%">
+            <source src="static/videos/test/predict_248.mp4" type="video/mp4">
+          </video>
+        </div>
+        <!-- Video 5 -->
+        <div class="item item-video5">
+          <video poster="" id="video5" autoplay controls muted loop height="100%">
+            <source src="static/videos/test/predict_173.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End video carousel -->
+
+<!-- JavaScript to adjust video playback speed -->
+<script>
+  // Function to set playback rate for all videos after they are loaded
+  function setPlaybackRate(videos, rate) {
+    videos.forEach(function(video) {
+      video.onloadeddata = function() {
+        video.playbackRate = rate;
+      };
+    });
+  }
+
+  // Get all video elements by their IDs
+  var videos = [
+    document.getElementById("video1"),
+    document.getElementById("video2"),
+    document.getElementById("video3"),
+    document.getElementById("video4"),
+    document.getElementById("video5")
+  ];
+
+  // Set playback rate to 0.5 (50% of normal speed) for each video
+  setPlaybackRate(videos, 0.5);
+</script>
+
+
+
+<!-- Single Image Section -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="content">
+        <!-- Your image here -->
+        <img src="static/images/tabel1.png" alt="MY ALT TEXT" />
+      <p>Quantitative comparison of learning spaces. The extending the learning space to include dynamics leads to significant improvements in task performance.
+    </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Single Image Section -->
+
+<!-- Two Images Section -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="content">
+        <!-- Container for the images -->
+        <div style="display: flex; justify-content: space-between;">
+          <!-- Image 1 -->
+          <img src="static/images/tabel2.png" alt="Image 1" style="width: 48%;"/>
+          <!-- Image 2 -->
+          <img src="static/images/tabel3.png" alt="Image 2" style="width: 48%;"/>
+        </div>
+        <p>
+          Tabel on the left is quantitative comparison of learning strategies. TO improves the success rate of IL in dynamic manipulation of deformable objects but fails to learn an efficient policy independently.</p>
+ <p>
+ Tabel on the right is ablation study on the choice of physical priors. KBC plays a crucial role in constraining the initial boundary states. When omitted during test-time adaptation with DDP, the policy suffers from unstable predictions, leading to a significantly lower success rate.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Two Images Section -->
+
+
+<!-- Single Image Section -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="content">
+        <!-- Your image here -->
+        <img src="static/images/tta_ada_ablation_00.png" alt="MY ALT TEXT" />
+      <p>Visualization of the manipulation process. The baseline represents the diffusion policy without test-time adaptation.  <strong>DDP</strong> denotes test-time adaptation using only the differentiable dynamics prior, while  <strong>KBC </strong> indicates adaptation incorporating the kinematic boundary condition.
+    </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Single Image Section -->
+
+
+
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
